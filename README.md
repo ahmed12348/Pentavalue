@@ -50,8 +50,8 @@ A modern, real-time sales analytics application built with Laravel, featuring li
 
 ### 1. **Clone the Repository**
 ```bash
-git clone <your-repository-url>
-cd realtime-sales-analytics
+git clone https://github.com/ahmed12348/Pentavalue
+cd Pentavalue
 ```
 
 ### 2. **Install Dependencies**
@@ -174,24 +174,7 @@ Returns: AI-powered suggestions based on sales data and weather
 
 ## 🧪 Testing the Application
 
-### **1. Test API Endpoints**
-```bash
-# Create a new order
-curl -X POST http://localhost:8000/api/orders \
-  -H "Content-Type: application/json" \
-  -d '{
-    "product_id": 3,
-    "quantity": 2,
-    "price": 15.99,
-    "date": "2024-01-15 10:30:00"
-  }'
 
-# Get analytics
-curl http://localhost:8000/api/analytics
-
-# Get recommendations
-curl http://localhost:8000/api/recommendations
-```
 
 ### **2. Test Real-time Updates**
 1. Open the dashboard in multiple browser tabs
