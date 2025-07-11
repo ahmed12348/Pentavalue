@@ -299,6 +299,16 @@ For support and questions:
 - Review Laravel documentation
 - Open an issue on GitHub
 
+## 📬 Postman Collection
+
+You can test all API endpoints using the provided Postman collection.
+
+**How to use:**
+1. Download the collection file: [`postman/RealTimeSalesAnalytics.postman_collection.json`](postman/RealTimeSalesAnalytics.postman_collection.json)
+2. Open Postman and click `Import`.
+3. Select the downloaded JSON file.
+4. Use the pre-configured requests to test all API endpoints (orders, analytics, recommendations, etc).
+
 ---
 
 **Built with ❤️ using Laravel and modern web technologies**
